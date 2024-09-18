@@ -1,7 +1,9 @@
 ---
 generalmills:
   production:
-    app1 : 0.1
+    app1 : 
+      vcocres: 0.1
+      replicas: 1
     app3 : 03
   dev:
     app1: 0.2
