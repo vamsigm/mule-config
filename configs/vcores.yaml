@@ -1,16 +1,15 @@
 ---
-vcores:
-  generalmills:
-    production:
-      - app1 : 0.1
-      - app3 : 03
-    sandbox:
-      - app1: 0.2
-      - app2: 00.4
-  tradepromotions:
-    production:
-      - app1 : 0.0
-      - app3 : 0.1
-    sandbox:
-      - app1: 0.1
-      - app2: 0.2
+generalmills:
+  production:
+    app1 : 0.1
+    app3 : 03
+  sandbox:
+    - app1: 0.2
+    - app2: 00.4
+tradepromotions:
+  production:
+    - app1 : 0.0
+    - app3 : 0.1
+  sandbox:
+    - app1: 0.1
+    - app2: 0.2
